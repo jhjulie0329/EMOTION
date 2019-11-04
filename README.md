@@ -35,12 +35,12 @@ EMOTION 숙제
 # 퍼셉트론 
 ## 퍼셉트론 개념
 &nbsp;초기 형태의 인공 신경망으로 다수의 입력으로부터 하나의 결과를 내보내는 알고리즘(모든 학습 데이터를 정확히 분류시킬 때까지 학습이 진행되기 때문에 학습 데이터가 선형적으로 분리될 수 있을 때 적합한 알고리즘)
-!(https://image.slidesharecdn.com/lecture29-convolutionalneuralnetworks-visionspring2015-150504114140-conversion-gate02/95/lecture-29-convolutional-neural-networks-computer-vision-spring2015-9-638.jpg?cb=1430740006)
+![image](https://image.slidesharecdn.com/lecture29-convolutionalneuralnetworks-visionspring2015-150504114140-conversion-gate02/95/lecture-29-convolutional-neural-networks-computer-vision-spring2015-9-638.jpg?cb=1430740006)
 -> 위 이미지에서 가중치라고 부르는 이 weight는 각각의 입력신호에 부여되어 입력신호와의 계산을 하고 신호의 총합이 정해진 임계값(θ; theta,세타)을 넘었을 때 1을 출력한다. (이를 뉴련의 활성화activation 으로도 표현) 넘지 못하면 0 또는 -1을 출력한다.
 각 입력신호에는 고유한 weight가 부여되며 weight가 클수록 해당 신호가 중요하다고 볼 수 있음
 ## 퍼셉트론 한계
 &nbsp;직선 하나로 나눈 영역만 표현할 수 있어 XOR과 같은 데이터 형태는 분류가 불가능
-!(http://ecee.colorado.edu/~ecen4831/lectures/xor2.gif)
+![image](<img style="-webkit-user-select: none;margin: auto;" src="http://ecee.colorado.edu/~ecen4831/lectures/xor2.gif">)
 # 로지스틱 회귀
 ## 로지스틱 회귀 개념
 &nbsp;독립 변수의 선형 결합을 이용하여 사건의 발생 가능성을 예측하는데 사용되는 통계 기법
@@ -48,7 +48,7 @@ EMOTION 숙제
 이러한 S-커브를 함수로 표현해낸 것이 바로 로지스틱 함수이고, 분야에 따라 시그모이드 함수로도 불림
 
 로지스틱 함수는 x값으로 어떤 값이든 받을 수가 있지만 출력 결과는 항상 0에서 1사이 값이 된다. 즉 확률밀도함수(probability density function) 요건을 충족시키는 함수라는 이야기인데, 그래프 모양 밑 주소 참고
-!(http://i.imgur.com/E0eI8OU.png)
+![image](http://i.imgur.com/E0eI8OU.png)
 ## 승산이란 ?
 &nbsp;임의의 사건 A가 발생하지 않을 확률 대비 일어날 확률의 비율을 뜻하는 개념
 식으로 쓰자면 == > odds=P(A)/P(Ac)=P(A)/1−P(A)
